@@ -32,7 +32,7 @@ public class Clinet {
                 // phan hoi tu server
                 mess_Server=read.readLine();
                 if (mess_Server.equals("END")) {
-                    System.out.println("Server has terminated the connection.");
+                    System.out.println("cham dut ket noi");
                     break;
                 }
                 System.out.println("Server: " + mess_Server);
